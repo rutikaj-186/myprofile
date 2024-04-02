@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutika-Portfolio</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body{
+            background-color : rgb(9, 9, 49);
+            color : white;
+            /* font-family :Verdana, Geneva, Tahoma, sans-serif; */
+        }
+        nav{
+            display : flex;
+            justify-content : space-around; 
+            align-items : center;
+            height : 80px;
+            background-color : rgb(18, 18, 82)
+
+        }
+        nav ul{
+            display : flex;
+            justify-content : center;
+         }
+         nav ul li{
+            list-style : none;
+            margin : 0 23px;
+         }
+         nav ul li a{
+            text-decoration : none;
+            color : white;
+         }
+         nav ul li a:hover{
+            
+            color : rgb(110, 110, 244);
+            font-size : 1.02rem;
+         }
+         .left{
+            font-size : 1.5rem;
+         }
+         .firstsection{
+            display : flex;
+            justify-content : space-around;
+            margin : 80px 0;
+           
+        }
+        .firstsection > div{
+            width :30%;
+            
+        }
+        .leftsection{
+            font-size : 3rem;
+            margin : 70px 0;
+        }
+        .leftsection .btn{
+            font-size : 3rem;
+            margin : 70px 0;
+        }
+        .leftsection .btn{
+           padding : 12px;
+           background : rgb(17, 17, 97);
+           color : white;
+           border : 2px solid white ;
+           border-radius : 6px;
+           font-size : 20px;
+           cursor : pointer;
+        }
+        
+        .firstsection > div{
+            width :30%;
+            
+        }
+        .purple{
+            color : rgb(154, 67, 236) ;
+        }
+        .text-gray{
+            color : gray;
+        }
+        .secondsection{
+            display : flex;
+            justify-content : space-around;
+            margin : 80px 0;
+           
+        }
+        .secondsection > div{
+            width :30%;
+            
+        }
+        .right_section{
+            font-size : 2rem;
+            margin : 40px 0;
+            padding : 40px 0;
+        }
+        
+        .left_section img {
+    margin-right: 100px; 
+}
+.right_section {
+    margin-left: 100px;
+    font-size : 20px; 
+   margin-top :-25px ;
+}
+.right_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensures that the section takes up the full height */
+}
+.thirdsection{
+    max-width : 80vw;
+    margin : auto;
+    height : 80vh;
+
+}
+.thirdsection .box{
+    background : white;
+    width : 59vw;
+    height : 2px;
+    margin : 56px 0;
+    display : flex;
+}
+.thirdsection .vertical{
+    height : 93px;
+    width : 1px;
+    background-color : white;
+    margin : 0 140px;
+}
+
+.vertical-title{
+    position : relative;
+    top : 95px;
+    left : -9px;
+    font-size : 20px;
+}
+.vertical-desc{
+    position : relative;
+    top : 100px;
+    color : gray;
+    width : 150px;
+    font-size : 12px;
+}
+.footer{
+    background-color : rgb(23, 4, 71);
+    height : 233px;
+}
+.footer{
+    display : flex;
+    margin : 23px 122px;
+}
+footer.container{
+    text-align: center;
+    margin: 50px 10px;
+    margin-top: center; 
+    height: 175px;
+    width: 100%;
+    vertical-align: top;
+    font-size : 25px;
+}
+.container{
+    text-align: center;
+    margin: 50px 10px;
+    margin-top: center; 
+    height: 175px;
+    width: 100%;
+    vertical-align: top;
+    font-size : 25px;
+}
+.container p {
+    margin: 10px 0; /* Add margin between paragraphs */
+}
+.first-paragraph{
+    font-size : 35px;
+}
+.second-paragraph{
+    font-size : 25px;
+}
+.third-paragraph{
+    font-size : 12px;
+}
+
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Rutika's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello,my name is <span class="purple">Rutika Jadhav</span>
+                <div>and am studying in T.Y.Mechatronics</div>
+               <div class="buttons">
+               <button class="btn">Download Resume</button>
+               <button class="btn">Visit Linkedin</button>
+               </div>
+            </div>
+            <div class="rightsection">
+                <img src="developer.png" alt="">
+            </div>
+        </section>
+       
+            <!---------about----->
+            <section class="secondsection">
+                <div class="left_section">
+                    <img src="about.png" alt="">
+                </div>
+
+                    <div class="right_section">
+                                    <h1 class="sub-title">About </h1>
+                                    <p>I am a student of Mechatronics Engineering and wanted to be a web developer.<div>Passionate and hard working person and want to explore</div> more about the new emerging technology.</p>
+                                </div>
+                               
+                     </section>
+                     <!----Projects------>
+                     <section class="thirdsection">
+                        <span class="text-gray">What I have done so far</span>
+                      <h1>Projects</h1>  
+                      <div class="box">
+                        <div class="vertical">
+                            <div class="vertical-title">
+                                Smart Irrigation System
+                                
+                            </div>
+                            <div class="vertical-desc">
+                                An automated system to detect the present moisture in the soil and the system work accordingly.
+                            </div>
+                        </div>
+                        
+                        <div class="vertical">
+                            <div class="vertical-title">
+                               Battery Management System
+                                
+                            </div>
+                            <div class="vertical-desc">
+                                A system to monitor the factors of EV battery like location,temperature,life and having the real time excess through cloud.
+                            </div>
+                        </div>
+                        <div class="vertical">
+                            <div class="vertical-title">
+                                Smart Onion Storage System
+                                
+                            </div>
+                            <div class="vertical-desc">
+                               To detect the temperature,humidity and gas of onion to store them for longer period due to an automatic system.
+                            </div>
+                        </div>
+                        
+                      </div>
+                      
+
+                     </section>
+    </main>
+    <section class="fourthsection">
+    <footer>
+        <Div class="footer">
+            <div class="container">
+                <p class="first-paragraph">WANT TO WORK TOGETHER !</p>
+               <p class="second-paragraph"> rutika919@gmail.com</p>
+               
+               <p class="third-paragraph">Designed by RUTIKA JADHAV @2024</p>
+        
+            </div>
+            <div class="footer-Third"></div>
+            <div class="footer-Fourth"></div>
+        </Div>
+    </section>
+       
+    </footer>
+   
+   
+    
+</body>
+</html>
